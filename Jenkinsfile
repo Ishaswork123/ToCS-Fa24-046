@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from the repository
-                git branch: 'main', url: 'https://your-repo-url.git'
+                git branch: 'main', url: 'https://github.com/Ishaswork123/ToCS-Fa24-046.git'
             }
         }
 
